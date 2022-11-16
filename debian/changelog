@@ -1,3 +1,9 @@
+rust-inventory (0.2.3-1pexip1) pexip; urgency=medium
+
+  * Prepare Pexip packaging
+
+ -- John-Mark Bell <jmb@pexip.com>  Wed, 16 Nov 2022 23:31:48 +0000
+
 rust-inventory (0.2.3-1) unstable; urgency=medium
 
   * Package inventory 0.2.3 from crates.io using debcargo 2.5.0
