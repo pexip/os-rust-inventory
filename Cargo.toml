@@ -10,14 +10,20 @@
 # See Cargo.toml.orig for the original contents.
 
 [package]
-edition = "2018"
-rust-version = "1.37"
+edition = "2021"
+rust-version = "1.62"
 name = "inventory"
-version = "0.2.3"
+version = "0.3.2"
 authors = ["David Tolnay <dtolnay@gmail.com>"]
 description = "Typed distributed plugin registration"
 documentation = "https://docs.rs/inventory"
 readme = "README.md"
+keywords = ["linkage"]
+categories = [
+    "development-tools::build-utils",
+    "development-tools::procedural-macro-helpers",
+    "no-std",
+]
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/dtolnay/inventory"
 
