@@ -1,14 +1,15 @@
 [package]
 name = "inventory"
-version = "0.2.3" # remember to update html_root_url
+version = "0.3.2" # remember to update html_root_url
 authors = ["David Tolnay <dtolnay@gmail.com>"]
-license = "MIT OR Apache-2.0"
+categories = ["development-tools::build-utils", "development-tools::procedural-macro-helpers", "no-std"]
 description = "Typed distributed plugin registration"
-repository = "https://github.com/dtolnay/inventory"
 documentation = "https://docs.rs/inventory"
-readme = "README.md"
-edition = "2018"
-rust-version = "1.37"
+edition = "2021"
+keywords = ["linkage"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/dtolnay/inventory"
+rust-version = "1.62"
 
 [dependencies]
 ctor = "0.1"
