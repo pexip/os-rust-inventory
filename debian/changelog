@@ -1,3 +1,16 @@
+rust-inventory (0.3.2-1pexip1) pexip; urgency=medium
+
+  * New upstream release
+
+ -- John-Mark Bell <jmb@pexip.com>  Thu, 26 Jan 2023 20:26:22 +0000
+
+rust-inventory (0.3.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package inventory 0.3.2 from crates.io using debcargo 2.6.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 10 Dec 2022 21:05:30 +0000
+
 rust-inventory (0.2.3-1pexip1) pexip; urgency=medium
 
   * Prepare Pexip packaging

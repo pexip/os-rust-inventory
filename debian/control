@@ -12,9 +12,10 @@ Maintainer: Pexip AS <packaging@pexip.com>
 XSBC-Pexip-Original-Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
 XSBC-Pexip-Original-Uploaders:
  Jelmer Vernooĳ <jelmer@debian.org>
-Standards-Version: 4.5.1
+Standards-Version: 4.6.1
 Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/inventory]
 Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/inventory
+X-Cargo-Crate: inventory
 Rules-Requires-Root: no
 XS-Pexip-Upstream: http://ftp.debian.org/debian/ bookworm
 
@@ -29,10 +30,10 @@ Provides:
  librust-inventory+default-dev (= ${binary:Version}),
  librust-inventory-0-dev (= ${binary:Version}),
  librust-inventory-0+default-dev (= ${binary:Version}),
- librust-inventory-0.2-dev (= ${binary:Version}),
- librust-inventory-0.2+default-dev (= ${binary:Version}),
- librust-inventory-0.2.3-dev (= ${binary:Version}),
- librust-inventory-0.2.3+default-dev (= ${binary:Version})
+ librust-inventory-0.3-dev (= ${binary:Version}),
+ librust-inventory-0.3+default-dev (= ${binary:Version}),
+ librust-inventory-0.3.2-dev (= ${binary:Version}),
+ librust-inventory-0.3.2+default-dev (= ${binary:Version})
 Description: Typed distributed plugin registration - Rust source code
  This package contains the source for the Rust inventory crate, packaged by
  debcargo for use with cargo and dh-cargo.
